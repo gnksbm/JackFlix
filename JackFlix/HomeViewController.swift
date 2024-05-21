@@ -33,13 +33,6 @@ final class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.colors = [
-            #colorLiteral(red: 0.2244018614, green: 0.21944049, blue: 0.1891315877, alpha: 1).cgColor,
-            UIColor.black.cgColor,
-        ]
-        gradientLayer.frame = gradientView.bounds
-        gradientView.layer.addSublayer(gradientLayer)
         largeImageView.layer.cornerRadius = 10
         [
             playBtn, likedListBtn,
@@ -50,6 +43,21 @@ final class HomeViewController: UIViewController {
         [smallImgView1, smallImgView2, smallImgView3].forEach {
             imageBadges += $0.overlayBadge()
         }
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        setupGradient()
+    }
+    
+    private func setupGradient() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [
+            #colorLiteral(red: 0.2244018614, green: 0.21944049, blue: 0.1891315877, alpha: 1).cgColor,
+            UIColor.black.cgColor,
+        ]
+        gradientLayer.frame = gradientView.bounds
+        gradientView.layer.addSublayer(gradientLayer)
     }
     
     @IBAction func playBtnTapped(_ sender: UIButton) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEAE57042BFB34FB0092CA48 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE57032BFB34FB0092CA48 /* JoinViewController.swift */; };
 		BEDAAB502BF5DA5900167A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDAAB4F2BF5DA5900167A85 /* AppDelegate.swift */; };
 		BEDAAB522BF5DA5900167A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDAAB512BF5DA5900167A85 /* SceneDelegate.swift */; };
 		BEDAAB542BF5DA5900167A85 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDAAB532BF5DA5900167A85 /* SavedViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEAE57032BFB34FB0092CA48 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		BEDAAB4C2BF5DA5900167A85 /* JackFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDAAB4F2BF5DA5900167A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEDAAB512BF5DA5900167A85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				BEDAAB532BF5DA5900167A85 /* SavedViewController.swift */,
 				BEDAAB652BF5F32B00167A85 /* SearchViewController.swift */,
 				BEDAAB632BF5EDD800167A85 /* HomeViewController.swift */,
+				BEAE57032BFB34FB0092CA48 /* JoinViewController.swift */,
 				BEDAAB552BF5DA5900167A85 /* Main.storyboard */,
 				BEDAAB582BF5DA5A00167A85 /* Assets.xcassets */,
 				BEDAAB5A2BF5DA5A00167A85 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				BEDAAB542BF5DA5900167A85 /* SavedViewController.swift in Sources */,
 				BEDAAB502BF5DA5900167A85 /* AppDelegate.swift in Sources */,
 				BEDAAB522BF5DA5900167A85 /* SceneDelegate.swift in Sources */,
+				BEAE57042BFB34FB0092CA48 /* JoinViewController.swift in Sources */,
 				BEDAAB642BF5EDD800167A85 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
